@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Engineer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Custom styles can be added here */
+  </style>
+</head>
+
+<body class="bg-gray-100">
+  <nav class="bg-gray-800 py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="text-white font-semibold text-xl">IPortfolio</div>
+      <div>
+        <a href="#home" class="text-white px-4">Home</a>
+        <a href="#projects" class="text-white px-4">Projects</a>
+        <a href="#contact" class="text-white px-4">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="py-20 bg-gray-900 text-white text-center">
+    <div class="container mx-auto">
+      <h1 class="text-4xl font-semibold">Arvind Sawant</h1>
+      <p class="mt-4">Software Engineer</p>
+      <p class="mt-4">1 year of experience in Java development</p>
+    </div>
+  </header>
+
+  <section id="projects" class="container mx-auto py-12">
+    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a href="project1.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 1" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+      <a href="project2.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 2" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+      <a href="project3.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 3" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+      <!-- Add more project cards below -->
+      <a href="project4.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 4" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 4</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+      <a href="project5.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 5" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 5</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+      <a href="project6.html" target="_blank" class="bg-white p-6 rounded-lg shadow-md block">
+        <img src="https://via.placeholder.com/300" alt="Project 6" class="mb-4 rounded-md" />
+        <h3 class="text-xl font-semibold mb-2">Project 6</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          luctus ex id nunc laoreet, in tincidunt metus sodales.
+        </p>
+      </a>
+    </div>
+  </section>
+
+
+  <section class="container mx-auto py-12">
+    <h2 class="text-2xl font-semibold mb-4">Download Resume</h2>
+    <a href="/ArvindSawant_Resume.pdf" download="ArvindSawant_Resume.pdf"
+      class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Download Resume</a>
+  </section>
+
+
+  <section id="contact" class="container mx-auto py-12">
+    <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <p class="mb-2">
+          Feel free to reach out to me for any inquiries or collaboration
+          opportunities.
+        </p>
+        <p class="mb-2">Email: arvindsawant6@gmail.com</p>
+        <p class="mb-2">Phone: +91 9768552322</p>
+        <p class="mb-2">Address: Mumbai, India</p>
+      </div>
+      <form class="flex flex-col">
+        <input type="text" placeholder="Your Name" class="py-2 px-4 mb-4 border border-gray-300 rounded-md" />
+        <input type="email" placeholder="Your Email" class="py-2 px-4 mb-4 border border-gray-300 rounded-md" />
+        <textarea rows="4" placeholder="Your Message"
+          class="py-2 px-4 mb-4 border border-gray-300 rounded-md"></textarea>
+        <button type="submit"
+          class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Arvind Sawant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
